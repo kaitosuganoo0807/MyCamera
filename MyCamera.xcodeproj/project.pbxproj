@@ -15,6 +15,8 @@
 		FC1A81BE241DCF65005245A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1A81BC241DCF65005245A2 /* LaunchScreen.storyboard */; };
 		FC1A81C9241DCF65005245A2 /* MyCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A81C8241DCF65005245A2 /* MyCameraTests.swift */; };
 		FC1A81D4241DCF65005245A2 /* MyCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A81D3241DCF65005245A2 /* MyCameraUITests.swift */; };
+		FC504EDD241DF97A0018C98F /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC504EDC241DF97A0018C98F /* UIImageExtension.swift */; };
+		FC504EDF241DFCE60018C98F /* EffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC504EDE241DFCE50018C98F /* EffectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FC1A81CF241DCF65005245A2 /* MyCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1A81D3241DCF65005245A2 /* MyCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraUITests.swift; sourceTree = "<group>"; };
 		FC1A81D5241DCF65005245A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC504EDC241DF97A0018C98F /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		FC504EDE241DFCE50018C98F /* EffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				FC1A81B3241DCF64005245A2 /* SceneDelegate.swift */,
 				FC1A81B5241DCF64005245A2 /* ViewController.swift */,
 				FC1A81B7241DCF64005245A2 /* Main.storyboard */,
+				FC504EDE241DFCE50018C98F /* EffectViewController.swift */,
 				FC1A81BA241DCF65005245A2 /* Assets.xcassets */,
 				FC1A81BC241DCF65005245A2 /* LaunchScreen.storyboard */,
 				FC1A81BF241DCF65005245A2 /* Info.plist */,
+				FC504EDC241DF97A0018C98F /* UIImageExtension.swift */,
 			);
 			path = MyCamera;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC504EDF241DFCE60018C98F /* EffectViewController.swift in Sources */,
 				FC1A81B6241DCF64005245A2 /* ViewController.swift in Sources */,
 				FC1A81B2241DCF64005245A2 /* AppDelegate.swift in Sources */,
 				FC1A81B4241DCF64005245A2 /* SceneDelegate.swift in Sources */,
+				FC504EDD241DF97A0018C98F /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GB5GUQVY39;
 				INFOPLIST_FILE = MyCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GB5GUQVY39;
 				INFOPLIST_FILE = MyCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
